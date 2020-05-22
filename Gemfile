@@ -3,9 +3,8 @@ source "https://rubygems.org"
 
 gemspec
 
-rails_version = ENV["RAILS_VERSION"] || "4.1.4"
-
-gem "rails", "~> #{rails_version}"
+# rails_version = ENV["RAILS_VERSION"] || "4.1.4"
+gem "rails", ">= 4.1.4"
 
 gem 'factory_girl_rails'
 gem 'sqlite3'
